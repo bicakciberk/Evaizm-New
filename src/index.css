@@ -41,7 +41,12 @@ body {
   transition: 1s;
 }
 
-#biography-img {
+#stream {
+  box-shadow: 0px 0px 40px -5px #d64256;
+}
+
+#biography-img,
+#email-img {
   box-shadow: 0px 0px 16px #09717b;
   transition: 1s;
 }

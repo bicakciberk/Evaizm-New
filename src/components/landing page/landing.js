@@ -49,7 +49,7 @@ function Landing() {
   }, [isVisible, controls]);
 
   return (
-    <div className="landing h-screen relative">
+    <div className="landing h-screen relative ">
       <Navbar />
       <Center />
       <Bottom />

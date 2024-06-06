@@ -2,7 +2,7 @@ import Item from "./item";
 
 function left() {
   return (
-    <div className="left flex items-center 600px:w-full 600px:justify-between">
+    <div className="left  flex items-center 600px:w-full 600px:justify-between">
       <Item
         iClass="fa-brands fa-instagram"
         href="https://www.instagram.com/j3nguel"

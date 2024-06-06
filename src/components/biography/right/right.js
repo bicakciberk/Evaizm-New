@@ -1,6 +1,6 @@
 function right() {
   return (
-    <div className="right ml-[7vw] 900px:ml-0">
+    <div className="right ml-[7vw] 900px:ml-0 ">
       <h1 className="text-[3.6vh]">Who Am I</h1>
       <p className="max-w-[60vh] 900px:max-w-full text-[2.1vh] mt-[2.5vh]">
         Hello! I’m Jenguel, but you can call me Noyan. I’ve been living abroad

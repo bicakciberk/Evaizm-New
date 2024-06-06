@@ -4,7 +4,7 @@ function shadowLeft() {
   return (
     <div
       id="shadow-left"
-      className="absolute bg-black h-[25vw] w-[25vw] left-0 top-0"
+      className="shadow-left absolute bg-black h-[25vw] w-[25vw] left-0 top-0"
     ></div>
   );
 }
