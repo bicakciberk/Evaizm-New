@@ -7,7 +7,7 @@ function stream() {
       id="watchStream"
     >
       <iframe
-        src="https://player.twitch.tv/?channel=jenguel&parent=http://localhost:3000"
+        src="https://player.twitch.tv/?channel=jenguel&parent=https://jenguel-portofolio-tzks.vercel.app/"
         className="h-[70vh] w-[70vw] rounded-[16px]"
         allowfullscreen
       ></iframe>
