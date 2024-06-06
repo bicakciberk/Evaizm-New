@@ -6,10 +6,12 @@ function stream() {
       className="stream flex items-center justify-center h-screen"
       id="watchStream"
     >
-      <iframe
+     <iframe
         src="https://player.twitch.tv/?channel=jenguel&parent=https://jenguel-portofolio-tzks.vercel.app/"
-        className="h-[70vh] w-[70vw] rounded-[16px]"
-        allowfullscreen
+        frameborder="0"
+        allowfullscreen="true"
+        height="378"
+        width="620"
       ></iframe>
     </div>
   );
