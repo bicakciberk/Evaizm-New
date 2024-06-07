@@ -5,7 +5,7 @@ function biography() {
   return (
     <div
       id="biography"
-      className="biography w-full h-screen 550px:px-[16px] px-[32px] flex items-center justify-center"
+      className="biography h-screen 600px:px-[16px] px-[32px] flex items-center justify-center"
     >
       <Left></Left>
       <Right></Right>

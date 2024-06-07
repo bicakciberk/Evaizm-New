@@ -19,6 +19,9 @@ function list() {
       >
         Contact
       </a>
+      <p className="navbar-text text-[2.1vh] cursor-pointer ml-[3.2vw] 600px:ml-[8vw] hover:text-[#d64256] duration-150">
+        <i class="fa-solid fa-sun text-lg"></i>
+      </p>
     </div>
   );
 }

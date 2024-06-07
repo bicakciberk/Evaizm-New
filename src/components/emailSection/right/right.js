@@ -2,7 +2,7 @@ import React from "react";
 
 function right() {
   return (
-    <div className="right ml-[7vw] 900px:hidden">
+    <div className="right 900px:hidden ml-[7vw]">
       <img
         src="https://i.ibb.co/MVfZTrg/jenguel-email-1.webp"
         className="h-[88vh] rounded-[16px] object-cover"
