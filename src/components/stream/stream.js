@@ -13,6 +13,13 @@ function stream() {
         frameborder="0"
         allowfullscreen="true"
       ></iframe>
+      <iframe
+        src="https://player.twitch.tv/?channel=jenguel&parent=jenguel-portofolio-tzks.vercel.app"
+        frameborder="0"
+        allowfullscreen="true"
+        height="378"
+        width="620"
+      ></iframe>
     </div>
   );
 }
