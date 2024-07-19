@@ -7,8 +7,8 @@ function stream() {
       id="watchStream"
     >
       <iframe
-        src="https://player.twitch.tv/?channel=jenguel&parent=jenguel-portofolio.vercel.app"
-        className="h-[75vh] w-[70vw] 900px:w-full rounded-[16px]"
+        src="https://player.twitch.tv/?channel=evaizm&parent=https://www.evaizm.com.tr/"
+        className="h-[75vh] w-[70vw] 900px:w-full rounded-[16px] z-50"
         id="stream"
         frameborder="0"
         allowfullscreen="true"

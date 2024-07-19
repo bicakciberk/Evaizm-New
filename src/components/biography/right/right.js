@@ -1,23 +1,18 @@
 function right() {
   return (
-    <div className="right 900px:ml-0 ml-[7vw]">
-      <h1 className="text-[3.6vh]">Who Am I</h1>
+    <div className="right 900px:ml-0 ml-[7vw] z-50">
+      <h1 className="text-[3.6vh]">Ben Kimim ?</h1>
       <p className="max-w-[60vh] 900px:max-w-full text-[2.1vh] mt-[2.5vh]">
-        Hello! I’m Jenguel, but you can call me Noyan. I’ve been living abroad
-        since 2012, and currently, I’m residing in Tokyo, Japan. My life is
-        enriched by diverse cultures and experiences. I love riding my bike,
-        exploring the city's streets, and attending various events.
+        Merhaba! Ben Eva. Twitch'te yayın yapıyorum ve izleyicilerimle samimi
+        sohbetlere, oyunlara ve güncel konulara yer veriyorum. 99 doğumluyum ve
+        her yayında izleyicilerimle bağ kurmayı, onların katılımını önemsiyorum.
       </p>
       <p className="max-w-[60vh] 900px:max-w-full text-[2.1vh] mt-[2.5vh]">
-        On my Twitch streams, I aim to bring together my passion for chatting
-        and gaming to create enjoyable moments for all of us. Each stream is a
-        great opportunity to make new friends and have fun together. We can
-        discuss strategies while playing different games, talk about my biking
-        adventures, or you can ask me anything about life in Tokyo.
-      </p>
-      <p className="max-w-[60vh] 900px:max-w-full text-[2.1vh] mt-[2.5vh]">
-        Join my channel and be part of this exciting journey. Looking forward to
-        engaging chats and fun gaming sessions with all of you!
+        Yayınlarım, sadece oyunlara değil, günlük yaşama dair konuları da
+        kapsıyor. Her izleyiciyi önemsiyor, katılan herkesin kendini özel
+        hissetmesi için çaba gösteriyorum. Yeni insanlarla tanışmak, farklı
+        perspektifler keşfetmek ve keyifli zaman geçirmek benim için büyük bir
+        mutluluk kaynağı.
       </p>
     </div>
   );

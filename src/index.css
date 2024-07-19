@@ -13,22 +13,22 @@ html {
   list-style: none;
   outline: none;
   font-family: "Poppins", sans-serif;
-  scrollbar-width: auto;
-  scrollbar-color: #d64256 #ffffff;
+  scrollbar-width: none;
+  scrollbar-color: #d64256 #000000;
+
   /* overflow-x: hidden; */
 }
 
 *::-webkit-scrollbar {
-  width: 16px;
+  width: 0px;
 }
 
-*::-webkit-scrollbar-track {
-  background: #ffffff;
+::-webkit-scrollbar-track {
+  background: #fefefe;
 }
 
 *::-webkit-scrollbar-thumb {
   background-color: #d64256;
-  border-radius: 10px;
   border: 3px solid #ffffff;
 }
 
@@ -36,14 +36,14 @@ body {
   overflow-x: hidden;
 }
 
-#jenguel-img {
-  box-shadow: 0px 0px 35px -5px #d64256;
+#evaizm-img {
+  box-shadow: 0px 0px 25px -5px #d64256;
   transition: 1s;
 }
 
 #stream,
 #youtubeVideo {
-  box-shadow: 0px 0px 40px -5px #d64256;
+  box-shadow: 0px 0px 16px #d64256;
 }
 
 #biography-img,
@@ -52,7 +52,7 @@ body {
   transition: 1s;
 }
 
-#shadow-left {
+.eva.light #shadow-left {
   background: linear-gradient(
     135deg,
     rgba(214, 66, 86, 0.6) 0%,
@@ -61,11 +61,29 @@ body {
   opacity: 0.3;
 }
 
-#shadow-right {
+.eva.light #shadow-right {
   background: linear-gradient(
     225deg,
     rgba(214, 66, 86, 0.6) 0%,
     rgba(254, 254, 254, 0) 45%
   );
   opacity: 0.3;
+}
+
+.eva.dark #shadow-left {
+  background: linear-gradient(
+    135deg,
+    rgba(214, 66, 86, 0.6) 0%,
+    rgba(254, 254, 254, 0) 45%
+  );
+  opacity: 0.15;
+}
+
+.eva.dark #shadow-right {
+  background: linear-gradient(
+    225deg,
+    rgba(214, 66, 86, 0.6) 0%,
+    rgba(254, 254, 254, 0) 45%
+  );
+  opacity: 0.15;
 }
