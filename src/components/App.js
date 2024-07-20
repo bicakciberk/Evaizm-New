@@ -7,8 +7,6 @@ import YoutubeVideo from "../components/youtubeVideo/youtubeVideo";
 import { useSelector } from "react-redux";
 import { motion, useAnimation } from "framer-motion";
 import { useEffect, useState } from "react";
-import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   const theme = useSelector((store) => store.theme.value);
@@ -83,8 +81,6 @@ function App() {
       <Stream></Stream>
       <YoutubeVideo></YoutubeVideo>
       <Email></Email>
-      <Analytics></Analytics>
-      <SpeedInsights></SpeedInsights>
     </div>
   );
 }
